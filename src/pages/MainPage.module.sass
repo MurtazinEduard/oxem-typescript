@@ -33,7 +33,7 @@
 .footer
     display: grid
     grid-template-columns: 1fr 1fr 1fr
-    align-items: center
+    align-items: flex-end
     @media screen and ( max-width:  1200px)
         grid-template-columns: 1.2fr 1fr 
     @media screen and ( max-width:  1400px)
@@ -60,6 +60,7 @@
     &_button
         width: 100%
         padding: 0 15px
+        
         @media screen and ( max-width:  1400px)
             padding: 0px
         @media screen and ( max-width:  1200px)
