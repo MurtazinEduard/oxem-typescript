@@ -1,0 +1,48 @@
+@import '../../styles/assets'
+.main
+    display: flex
+    width: 100%
+    flex-direction: column
+    padding: 0 15px
+    &_title
+        margin-bottom: 25px
+    &_input
+        
+        width: 100%
+        box-sizing: border-box
+        padding: 16px 24px
+        font-weight: 900
+        font-size: 30px
+        outline: none
+        border: 2px solid transparent
+        background: $_bg_grey
+        border-radius: 20px
+        color: $_text_grey
+        z-index: 2
+        &::-webkit-inner-spin-button
+            -webkit-appearance: none
+            -moz-appearance: textfield
+        &:focus
+            border: 2px solid $_bg_grey
+            outline: none
+            background: #fff
+    &_label
+        position: relative
+        top: -60px
+        left: -24px
+        color: $_text_grey
+        font-weight: 900
+        font-size: 30px
+        float: right
+        z-index: 1
+        background: inherit
+        border-radius: 10px
+    &_slider
+        position: relative
+        top: -55px
+        height: 10px
+        padding: 0 15px
+        z-index: 0
+        
+
+    

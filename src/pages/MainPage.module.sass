@@ -1,0 +1,40 @@
+@import '../styles/assets'
+.wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background: #fff
+    width: 100%
+    height: 100vh
+.main
+    display: flex
+    flex-direction: column
+    background: #fff
+    width: 1440px
+    padding: 50px
+    box-sizing: border-box
+    &_title
+        color: $_black
+        font-size: 54px
+    &_inputs
+        display: flex
+.footer
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    align-items: center
+    &_price
+        display: flex
+        flex-direction: column
+        text-align: start
+        padding: 0 15px
+        color: #575757
+        &__title
+            font-weight: 400
+            font-size: 16px
+        &__value
+            font-weight: 900
+            font-size: 54px
+    &_button
+        width: 100%
+        padding: 0 15px
