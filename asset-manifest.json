@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/oxem-typescript/static/css/main.35ba287b.css",
-    "main.js": "/oxem-typescript/static/js/main.65289b0c.js",
+    "main.css": "/oxem-typescript/static/css/main.0638c982.css",
+    "main.js": "/oxem-typescript/static/js/main.a7911c33.js",
     "index.html": "/oxem-typescript/index.html",
-    "main.35ba287b.css.map": "/oxem-typescript/static/css/main.35ba287b.css.map",
-    "main.65289b0c.js.map": "/oxem-typescript/static/js/main.65289b0c.js.map"
+    "main.0638c982.css.map": "/oxem-typescript/static/css/main.0638c982.css.map",
+    "main.a7911c33.js.map": "/oxem-typescript/static/js/main.a7911c33.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ba287b.css",
-    "static/js/main.65289b0c.js"
+    "static/css/main.0638c982.css",
+    "static/js/main.a7911c33.js"
   ]
 }
