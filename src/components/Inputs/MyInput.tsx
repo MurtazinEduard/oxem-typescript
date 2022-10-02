@@ -46,7 +46,7 @@ const MyInput: FC<InputProps> = ({
   return (
     <div className={style.main}>
       <span className={style.main_title}>{inputTitle}</span>
-      <form className={style.main.form}>
+      <div >
         <input
           onBlur={handleBlurInput}
           autoFocus
@@ -70,7 +70,7 @@ const MyInput: FC<InputProps> = ({
             step={sliderValues.step}
           />
         </div>
-      </form>
+      </div>
     </div>
   );
 };

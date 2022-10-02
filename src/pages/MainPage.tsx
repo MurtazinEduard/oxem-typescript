@@ -15,6 +15,9 @@ const MainPage = () => {
       backgroundColor: '#111',
       color: '#fff',
     },
+    '@media (max-width:780px)': { 
+      fontSize: '15px',
+    }
   }));
   const [carPrice, setCarPrice] = useState<number>(1000000);
   const [firstPayment, setFirstPayment] = useState<number>(100000);
