@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oxem-typescript/static/css/main.35ba287b.css",
+    "main.js": "/oxem-typescript/static/js/main.65289b0c.js",
+    "index.html": "/oxem-typescript/index.html",
+    "main.35ba287b.css.map": "/oxem-typescript/static/css/main.35ba287b.css.map",
+    "main.65289b0c.js.map": "/oxem-typescript/static/js/main.65289b0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35ba287b.css",
+    "static/js/main.65289b0c.js"
+  ]
+}
